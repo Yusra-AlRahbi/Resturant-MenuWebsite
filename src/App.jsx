@@ -1,10 +1,15 @@
+import { Container } from "react-bootstrap"
+import NavBar from "./components/NavBar"
 
 
 
 function App() {
   return (
  <div className="color_body">
-  مطعم
+  <NavBar/>
+  <Container>
+
+  </Container>
  </div>
   )
 }
