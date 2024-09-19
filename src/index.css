@@ -66,3 +66,30 @@
   height: 60px;
   width: 60px;
 }
+
+.item-title{
+  color: #555555;
+  font-size: 16px;
+  font-family: Arial;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.item-description{
+  color: #8c8c8c;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.item-price{
+  color: #b45b35;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 20px;
+}
