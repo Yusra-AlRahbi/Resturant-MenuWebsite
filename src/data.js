@@ -1,3 +1,12 @@
+import pizzaImg from "./assets/img/pizza.jpg";
+import soupImg from "./assets/img/soup.jpg";
+import pastaImg from "./assets/img/pasta.jpg";
+import burgerImg from "./assets/img/burger.jpg";
+import juiceImg1 from "./assets/img/juice1.jpg";
+import juiceImg2 from "./assets/img/juice2.jpg";
+import juiceImg3 from "./assets/img/juice3.jpg";
+
+
 export const item = [
   {
     id: Math.random(),
@@ -5,7 +14,7 @@ export const item = [
     description: "lorem lorem lorem ",
     price: "1 OR",
     category: "Breakfast",
-    img: "./assets/img/pizza.jpg",
+    img: pizzaImg,
   },
   {
     id: Math.random(),
@@ -13,7 +22,7 @@ export const item = [
     description: "lorem lorem lorem ",
     price: "1 OR",
     category: "Dinner",
-    img: "./assets/img/soup.jpg",
+    img: soupImg,
   },
   {
     id: Math.random(),
@@ -21,7 +30,7 @@ export const item = [
     description: "lorem lorem lorem ",
     price: "1 OR",
     category: "Lunch",
-    img: "./assets/img/pasta.jpg",
+    img:pastaImg,
   },
   {
     id: Math.random(),
@@ -29,7 +38,7 @@ export const item = [
     description: "lorem lorem lorem ",
     price: "1 OR",
     category: "Breakfast",
-    img: "./assets/img/burger.jpg",
+    img: burgerImg,
   },
   {
     id: Math.random(),
@@ -37,7 +46,7 @@ export const item = [
     description: "lorem lorem lorem ",
     price: "1 OR",
     category: "Breakfast",
-    img: "./assets/img/juice1.jpg",
+    img:juiceImg1,
   },
   {
     id: Math.random(),
@@ -45,7 +54,7 @@ export const item = [
     description: "lorem lorem lorem ",
     price: "1 OR",
     category: "Breakfast",
-    img: "./assets/img/juice2.jpg",
+    img:juiceImg2,
   },
   {
     id: Math.random(),
@@ -53,6 +62,6 @@ export const item = [
     description: "lorem lorem lorem ",
     price: "1 OR",
     category: "Breakfast",
-    img: "./assets/img/juice3.jpg",
+    img: juiceImg3,
   },
 ];

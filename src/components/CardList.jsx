@@ -10,7 +10,7 @@ const CardList = ({ itemData }) => {
               <Card className="d-flex flex-row">
                 <Card.Img
                   variant="top"
-                  src={item.Img}
+                  src={item.img}
                   className="img-item"
                 />
                 <Card.Body>
